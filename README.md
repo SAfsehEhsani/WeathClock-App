@@ -11,12 +11,7 @@ Built with a clean UI, dynamic background images based on weather and time, and 
 |------------|-----------|
 | ![Light](https://github.com/SAfsehEhsani/WeathClock-App/blob/main/assets/screenshots/dark.jpg) | ![Dark](https://github.com/SAfsehEhsani/WeathClock-App/blob/main/assets/screenshots/light.jpg) |
 
-## Live Demo
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=appveyor)](https://weather-and-clock-app.onrender.com)
-
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://weather-and-clock-app.onrender.com)
+# APK File : https://drive.google.com/file/d/1CLJWPaI1LfjWLz_dpiImO9P6sdDODcQ_/view?usp=sharing
 
 
 ## 🔥 Features
