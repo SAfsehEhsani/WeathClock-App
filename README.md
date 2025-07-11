@@ -11,6 +11,8 @@ Built with a clean UI, dynamic background images based on weather and time, and 
 |------------|-----------|
 | ![Light](https://github.com/SAfsehEhsani/WeathClock-App/blob/main/assets/screenshots/dark.jpg) | ![Dark](https://github.com/SAfsehEhsani/WeathClock-App/blob/main/assets/screenshots/light.jpg) |
 
+# Video Demo : https://drive.google.com/file/d/1eIaLt7-7zfFP82Q_nkVxQJr0QBPzQi9r/view?usp=sharing
+
 # APK File : https://drive.google.com/file/d/1CLJWPaI1LfjWLz_dpiImO9P6sdDODcQ_/view?usp=sharing
 
 
