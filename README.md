@@ -9,7 +9,7 @@ Built with a clean UI, dynamic background images based on weather and time, and 
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light](assets/screens/light.png) | ![Dark](assets/screens/dark.png) |
+| ![Light](https://github.com/SAfsehEhsani/WeathClock-App/blob/main/assets/screenshots/dark.jpg) | ![Dark](https://github.com/SAfsehEhsani/WeathClock-App/blob/main/assets/screenshots/light.jpg) |
 
 
 ## 🔥 Features
