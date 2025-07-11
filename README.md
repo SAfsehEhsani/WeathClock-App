@@ -16,6 +16,8 @@ Built with a clean UI, dynamic background images based on weather and time, and 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=appveyor)](https://weather-and-clock-app.onrender.com)
 
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://weather-and-clock-app.onrender.com)
+
 
 ## 🔥 Features
 
