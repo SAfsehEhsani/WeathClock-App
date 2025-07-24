@@ -53,6 +53,7 @@ class WeatherHomePage extends StatefulWidget {
 class _WeatherHomePageState extends State<WeatherHomePage> {
   String city = "Delhi";
   String time = "";
+  String date = "";
   String temp = "";
   String desc = "";
   String backgroundImage = "assets/bg.jpg";
@@ -104,6 +105,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
         final data = json.decode(response.body);
         setState(() {
           time = data["local_time"];
+          date = data["local_date"];
           temp = "${data["temperature"]} °C";
           desc = data["description"];
           backgroundImage = getBackground(desc, time);
@@ -111,6 +113,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
       } else {
         setState(() {
           time = "Error";
+          date = "-";  
           temp = "N/A";
           desc = "City not found";
           backgroundImage = "assets/bg.jpg";
@@ -119,6 +122,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
     } catch (e) {
       setState(() {
         time = "Error";
+        date = "-";  
         temp = "N/A";
         desc = "Failed to connect";
         backgroundImage = "assets/bg.jpg";
@@ -275,6 +279,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
                     if (hasFetched) ...[
                       SizedBox(height: 30),
                       Text("City: $city", style: textStyle),
+                      Text("Date: $date", style: textStyle),
                       Text("Time: $time", style: textStyle),
                       Text("Temperature: $temp", style: textStyle),
                       Text("Description: $desc", style: textStyle),
