@@ -19,10 +19,12 @@ async def get_weather_time(city: str):
     timezone_seconds = data["timezone"]
     local_time = datetime.utcnow().timestamp() + timezone_seconds
     local_time_str = datetime.fromtimestamp(local_time).strftime("%H:%M:%S")
+    local_time_str = datetime.fromtimestamp(local_time).strftime("%d-%m-%Y")
 
     return {
         "city": city,
         "temperature": temp,
         "description": desc,
-        "local_time": local_time_str
+        "local_time": local_time_str,
+        "local_date_str": local_date_str    
     }
