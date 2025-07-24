@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from weather import get_weather_time
+from .weather import get_weather_time
 
 app = FastAPI()
 
